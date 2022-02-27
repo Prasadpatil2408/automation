@@ -1,0 +1,18 @@
+
+	@BeforeMethod
+	public void login() {
+		System.out.println("Application Login");
+	}
+	
+	@AfterMethod
+	public void logout() {
+		System.out.println("Application Logout");
+	}
+	
+	
+	@BeforeClass
+	public void launchBrowser() {
+		System.out.println("Browser is opened");
+	}
+	
+	
